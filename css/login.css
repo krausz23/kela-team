@@ -1,0 +1,73 @@
+fieldset { 
+	margin-top: 150px;
+	margin-bottom: auto;
+	height: 350px;
+	width:300px; 
+	font-size: 20px;
+	font-family: cursive;
+	background-color: #ADD8E6;
+	margin-left: auto;
+	margin-right: auto;  
+}
+
+legend
+{ 
+	background-color: #ADD8E6;
+}  
+
+
+
+
+#headerDiv1{
+	height: 200px;
+	width: 400px;
+	border: 2px solid black;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	background-color: #ADD8E6;
+}
+
+#headerDiv2{
+	border: 2px solid black;
+	height: 52%;
+	width: 80%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#login-box-options{
+	font-size: 10px
+}
+
+
+#headerDiv3{
+	
+
+}
+#btn_submit{
+	font-size: 20px;
+	-moz-border-radius:5px;
+    -webkit-border-radius:2px;
+
+}
+
+#btn_clear{
+	font-size: 20px;
+	-moz-border-radius:5px;
+    -webkit-border-radius:2px;
+
+}
+
+
+#headerDiv4
+{
+	font-size: 15px
+
+
+}
+
+
