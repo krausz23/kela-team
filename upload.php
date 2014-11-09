@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,7 +61,7 @@
 		</div>
 
 		<div id="musicUploadDiv">
-			<form id="musicUploadForm" name="musicUploadForm" action="action.php" method="POST" enctype="multipart/form-data">
+			<form id="musicUploadForm" name="musicUploadForm" action="music_upload.php" method="POST" enctype="multipart/form-data">
 
 		
 				<!-- ************************************** Torrent nevének megadása ************************************ -->   

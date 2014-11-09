@@ -10,6 +10,10 @@
 </head>
 
 	<body>
+	<?php
+ 		session_start();
+ 		echo "<p style='color:#d7d080;'>". "Üdvőzőlünk :"."Kela-team" ;//$_SESSION['nev'];  
+ 	?>
 		<header>
 		<div id="headerDiv"> 
 		

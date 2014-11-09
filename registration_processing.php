@@ -5,6 +5,10 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST')
     header ('Location: login.php');//eliranyitjuk
 }	
 
+//Ez nem akar mukodni :-?? 
+if($_POST['btn_cancel'])
+ 		header('Location:login.php');
+
 
 if($_POST['submit'])
 {
@@ -51,5 +55,8 @@ if($_POST['submit'])
 
 }//if post	
  else
- 	header('Location:login.php');		
+ 	header('Location:login.php');	
+
+
+
 ?>

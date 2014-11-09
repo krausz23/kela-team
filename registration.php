@@ -114,7 +114,7 @@
 						<div class="sub">
 							<table>	
 								<tr>	
-									<td><input type="button" value="Cancel"></td>
+									<td><input type="button" value="Cancel" name="btn_cancel"></td>
 									<td><input type="submit" value="Registration" name="submit"> </td>
 								</tr>
 							</table>		
