@@ -44,8 +44,9 @@ legend
 }
 
 
-#headerDiv3{
-	
+#headerDiv3
+{
+	text-align: center;
 
 }
 #btn_submit{
@@ -65,7 +66,8 @@ legend
 
 #headerDiv4
 {
-	font-size: 15px
+	font-size: 15px;
+	text-align: right;
 
 
 }

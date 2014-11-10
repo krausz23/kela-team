@@ -105,8 +105,8 @@
 
 							<tr>
 								<td><label>Gender:</label></td>
-								<td> <input type="radio" id="radio_btn_male" value="Male" > Male   </td>
-								<td> <input type="radio" id="radio_btn_famale" value="Famale" > Famale    </td>					
+								<td> <input type="radio" id="radio_btn_male" value="Male" name="sex"> Male   </td>
+								<td> <input type="radio" id="radio_btn_famale" value="Famale" name="sex"> Famale    </td>					
 							</tr>
 
 						</table>
