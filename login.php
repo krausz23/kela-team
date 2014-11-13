@@ -17,7 +17,14 @@
 		<form method="POST" action="login_processing.php">
 		<fieldset>
 			<legend>Login</legend>
-
+			<div id="logoDiv">
+				<table>
+					<tr>
+						<td><img src="img/Logo1.png"  id="logo"></td>
+						<td><span id="titleText">Kela torrent</span></td>
+					</tr>
+				</table>
+			</div>
 			<div id="headerDiv1">
 								
 						<div id="headerDiv2">
@@ -49,13 +56,13 @@
 						<input type="image" src="clear.png" id="btn_clear" value="Clear" width="70" height="48">
 					</div>
 				
-				</div>
-					<div id="headerDiv4">
-						<a link rel="stylesheet"  href="registration.php">Registration</a>
-					</div>
-			</fieldset>
+			</div>
+			<div id="headerDiv4">
+				<a link rel="stylesheet"  href="registration.php">Registration</a>
+			</div>
+		</fieldset>
 		</form>
-		</header>
+	</header>
 
-	</body>
-	</html>
+</body>
+</html>

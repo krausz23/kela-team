@@ -1,7 +1,7 @@
 fieldset { 
 	margin-top: 150px;
 	margin-bottom: auto;
-	height: 350px;
+	height: 480px;
 	width:450px; 
 	font-size: 20px;
 	font-family: cursive;
@@ -17,9 +17,37 @@ legend
 } 
 
 
-.sub
-{
-	margin-left: auto;
-	margin-right: auto;
-} 
 
+
+#logo
+{
+	height: 30%;
+
+}
+
+#logoDiv{
+	width: 200px;
+	height: 40px;
+	text-align: left;
+
+}
+
+#titleText{
+	font-size: 45px;
+	font-family: cursive;
+
+
+}
+
+#regDiv
+{
+	height: 220px;
+	width: 400px;
+	margin-top: 100px;
+}
+
+#sub
+{
+	margin-top: 20px;
+	text-align: right;
+} 

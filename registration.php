@@ -18,7 +18,15 @@
 		<form method="POST" action="registration_processing.php">
 		<fieldset>
 			<legend>Registration</legend>
-			
+			<div id="logoDiv">
+				<table>
+					<tr>
+						<td><img src="img/Logo1.png"  id="logo"></td>
+						<td><span id="titleText">Kela torrent</span></td>
+					</tr>
+				</table>
+			</div>
+			<div id="regDiv">
 			<table>
 				<tr>
 					<td><label>Username:</label></td>
@@ -38,8 +46,8 @@
 					<td><input type="text" name="email" required> </td>
 				</tr>
 				<tr>
-				</table>
-				<table>
+			</table>
+			<table>
 					<td><label>Date of birth:</label></td>
 					<td> <select id="year" name="year" > 
 
@@ -106,25 +114,22 @@
 							<tr>
 								<td><label>Gender:</label></td>
 								<td> <input type="radio" id="radio_btn_male" value="Male" name="sex"> Male   </td>
-								<td> <input type="radio" id="radio_btn_famale" value="Famale" name="sex"> Famale    </td>					
+								<td> <input type="radio" id="radio_btn_famale" value="Famale" name="sex"> Female    </td>					
 							</tr>
 
-						</table>
-
-						<div class="sub">
-							<table>	
-								<tr>	
-									<td><input type="button" value="Cancel" name="btn_cancel"></td>
-									<td><input type="submit" value="Registration" name="submit"> </td>
-								</tr>
-							</table>		
-						</div>	
-					</fieldset>
-					</form>
-				</header>
+			</table>
+			<input type="checkbox" name="term" value="term">I accepted all terms!
+			<div id="sub">
+				<td><input type="submit" value="Registration" name="submit"> </td>
+				<td><input type="button" value="Cancel" name="btn_cancel"></td>	
+			</div>	
+			</div>
+		</fieldset>
+		</form>
+	</header>
 
 
 
 
-			</body>
-			</html>
+</body>
+</html>

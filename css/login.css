@@ -1,7 +1,7 @@
 fieldset { 
 	margin-top: 150px;
 	margin-bottom: auto;
-	height: 350px;
+	height: 400px;
 	width:300px; 
 	font-size: 20px;
 	font-family: cursive;
@@ -14,8 +14,25 @@ legend
 { 
 	background-color: #ADD8E6;
 }  
+#logo
+{
+	height: 30%;
+
+}
+
+#logoDiv{
+	width: 200px;
+	height: 40px;
+	text-align: left;
+
+}
+
+#titleText{
+	font-size: 45px;
+	font-family: cursive;
 
 
+}
 
 
 #headerDiv1{
