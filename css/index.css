@@ -12,6 +12,8 @@ body
 	background: linear-gradient(#0047B2, #66A3FF);
 	margin-left: auto;
 	margin-right: auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 #logo
@@ -103,8 +105,30 @@ body
 	border: 2px solid black;
 }
 /*----------------------------------------------Zene feltöltö oldal---------------------------------------------------------------*/
-#musicUploadDiv {
-	
+
+
+#uploadTitle{
+	text-align: center;
+}
+.uploadTextBlock{
+	display: block;
+}
+
+#categorySelectDiv, #musicUploadDiv, #movieUploadDiv{
+	padding: 20px;
+}
+
+.centerText{
+	text-align: center;
+	font-weight: 600;
+	font-family: serif;
+}
+
+.stepsText{
+	border: 1px solid black;
+	padding: 0;
+	background: #5378E6;
+	border-radius: 10px;
 }
 
 #uploadHolderDiv
@@ -115,6 +139,34 @@ body
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+input{
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+#descriptionTextarea{
+	display: block;
+}
+
+.termsBox{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.button{
+	display: inline-block;
+}
+/*---------------------------------------------Validálás----------------------------------------------*/
+.torrentNameError{
+	display: inline;
+	color: red;
 }
 /*---------------------------------------------Szabalyok----------------------------------------------*/
 
