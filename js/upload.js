@@ -17,12 +17,12 @@ var serverURL = "http://localhost/kela-team/kela-team/";
 
   $("#submitButton").click(function(){
     var torrentName = $(".torrentName").val();
-    if (old_password == "") {
+    if (torrentName == "") {
       $( ".torrentNameError" ).text( "* This field is required." );
-              //return false;
+              return false;
     }
     else {
-      $.ajax({
+      /*$.ajax({
         type : 'POST',          
         url : serverURL + "musicupload.php", // Servlet URL          
         data:{
@@ -35,7 +35,7 @@ var serverURL = "http://localhost/kela-team/kela-team/";
         error : function(xhr, type) {
           alert('Server error occurred');
         }
-        });   
+        });  */ 
     }
   });
   

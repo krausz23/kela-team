@@ -61,8 +61,7 @@
 		</div>
 
 		<div id="musicUploadDiv">
-			<form id="musicUploadForm" name="musicUploadForm" action="music_upload.php" method="POST" enctype="multipart/form-data">
-
+			<form id="musicUploadForm" name="musicUploadForm" method="POST" enctype="multipart/form-data">
 		
 				<!-- ************************************** Torrent nevének megadása ************************************ -->   
 			    <div class="">
