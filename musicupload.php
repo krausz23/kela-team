@@ -4,7 +4,7 @@
 //http://blog.teamtreehouse.com/beginners-guide-to-ajax-development-with-php
 //http://labs.jonsuh.com/jquery-ajax-php-json/
 
-/*if (is_ajax()) {
+if (is_ajax()) {
 	if (isset($_POST["action"]) && !empty($_POST["action"])) { //Checks if action value exists
 		$action = $_POST["action"];
 		switch($action) { //Switch case for value of action
@@ -27,5 +27,5 @@ function test_function(){
 //$return["favorite_restaurant"] = "McDonald's";
 	$return["json"] = json_encode($return);
 	echo json_encode($return);
-}*/
+}
 ?>
