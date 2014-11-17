@@ -52,8 +52,8 @@
 						</div>	
 
 					<div id="headerDiv3">
-						<input type="image" src="login2.png" id="btn_submit" value="Login" name="submit"  width="70" height="48">
-						<input type="image" src="clear.png" id="btn_clear" value="Clear" width="70" height="48">
+						<input type="image" src="img/login2.png" id="btn_submit" value="Login" name="submit"  width="70" height="48">
+						<input type="image" src="img/clear.png" id="btn_clear" value="Clear" width="70" height="48">
 					</div>
 				
 			</div>

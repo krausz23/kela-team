@@ -1,5 +1,5 @@
 fieldset { 
-	margin-top: 150px;
+	margin-top: 100px;
 	margin-bottom: auto;
 	height: 480px;
 	width:450px; 
@@ -43,7 +43,8 @@ legend
 {
 	height: 220px;
 	width: 400px;
-	margin-top: 100px;
+	margin-top: 80px;
+	
 }
 
 #sub
