@@ -9,11 +9,6 @@
 
 <body>
 	<header>
-		<style>
-			body {
-				background-image: url("img/gradient_bg.png");
-			}
-		</style>
 		<form method="POST" action="login_processing.php">
 		<fieldset>
 			<legend>Login</legend>
