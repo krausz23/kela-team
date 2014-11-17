@@ -35,7 +35,7 @@
 				header('Location:index.php');
 
 			}else
-				echo "Wrong e-mail or password!";
+				die(header('Location: login.php'));
 
 		}else
 			echo "Existing epmty field!";

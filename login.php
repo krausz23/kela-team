@@ -9,16 +9,15 @@
 
 <body>
 	<header>
-		<style>
-			body {
-				background-image: url("img/gradient_bg.png");
-			}
-		</style>
 		<form method="POST" action="login_processing.php">
 		<fieldset>
 			<legend>Login</legend>
 
 			<div id="headerDiv1">
+				<div id="logoDiv">	
+					<img src="img/Logo1.png"  id="logo">
+					<span id="titleText">Kela torrent</span>
+				</div>
 								
 						<div id="headerDiv2">
 
@@ -45,8 +44,8 @@
 						</div>	
 
 					<div id="headerDiv3">
-						<input type="image" src="login2.png" id="btn_submit" value="Login" name="submit"  width="70" height="48">
-						<input type="image" src="clear.png" id="btn_clear" value="Clear" width="70" height="48">
+						<input type="image" src="img/login2.png" id="btn_submit" value="Login" name="submit"  width="70" height="48">
+						<input type="image" src="img/clear.png" id="btn_clear" value="Clear" width="70" height="48">
 					</div>
 				
 				</div>
